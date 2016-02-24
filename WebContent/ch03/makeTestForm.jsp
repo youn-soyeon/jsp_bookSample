@@ -6,7 +6,7 @@
 </head>
 <body>
 	폼에 데이터를 입력한 후 '전송' 버튼을 클릭하세요.
-	<form action="/ch03/viewParameter.jsp" method="post">
+	<form action="viewParameter.jsp" method="get">
 		이름 : <input type="text" name="name" size="10"><br> 주소 : <input
 			type="text" name="address" size="30"><br> 좋아하는 동물 : <input
 			type="checkbox" name="pet" value="dog">강아지 <input
