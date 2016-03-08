@@ -15,7 +15,7 @@
 		int len = -1;
 
 		try {
-			fr = new FileReader("C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\webapps\\ch06\\message\\notice\\notice.txt");
+			fr = new FileReader("C:\\Academy\\JSP\\workspace\\BookSample\\WebContent\\ch06\\message\\notice\\notice.txt");
 
 			while ((len = fr.read(buff)) != -1) {
 				out.print(new String(buff, 0, len));

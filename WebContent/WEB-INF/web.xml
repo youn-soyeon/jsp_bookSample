@@ -15,7 +15,26 @@
 		<param-value>5</param-value>
 	</context-param>
 
-	<display-name>JDBC</display-name>
+	<!-- 리스트7.13 -->
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>/ch07/view/*</url-pattern>
+			<include-prelude>/ch07/common/variable.jspf</include-prelude>
+			<include-coda>/ch07/common/footer.jspf</include-coda>
+		</jsp-property-group>
+	</jsp-config>
+
+	<!-- 리스트8.3 -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/ch08/error/error404.jsp</location>
+	</error-page>
+
+	<error-page>
+		<error-code>500</error-code>
+		<location>/ch08/error/error500.jsp</location>
+	</error-page>
+
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
@@ -31,4 +50,5 @@
 		<res-type>javax.sql.DataSource</res-type>
 		<res-auth>Container</res-auth>
 	</resource-ref>
+
 </web-app>

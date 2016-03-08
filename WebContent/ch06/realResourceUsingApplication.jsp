@@ -8,7 +8,7 @@
 
 <body>
 	<%
-		String resourcePath = "/message/notice/notice.txt";
+		String resourcePath = "ch06/message/notice/notice.txt";
 	%>
 	자원의 실제 경로:
 	<br>

@@ -12,7 +12,7 @@
 </head>
 <body>
 	<%
-		String resourcePath = "/message/notice/notice.txt";
+		String resourcePath = "ch06/message/notice/notice.txt";
 
 		BufferedReader br = null;
 		char[] buff = new char[512];
